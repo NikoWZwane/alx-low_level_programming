@@ -1,7 +1,12 @@
 #include <stdio.h>
+/**
+ * main - program that prints text using puts
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-/* program that prints text using puts */
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
+
