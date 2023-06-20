@@ -2,10 +2,10 @@
 
 int main() {
  
-  // declare strings
+  /* declare strings */
   char str[] = "Programming is like building a multilingual puzzle\n";
  
-  // print output using fuction puts
+  /* print output in puts fuction */
   puts(str);
 
   return 0;
