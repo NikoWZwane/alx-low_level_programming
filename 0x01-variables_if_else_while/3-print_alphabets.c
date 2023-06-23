@@ -9,11 +9,11 @@ int main(void)
 	char alphabet = 'a';
 	char UpperAlphabet = 'A';
 
-	while (alphabet <= 'z' ; alphabet++)
+	do (alphabet <= 'z' ; alphabet++)
 	{
 		putchar(alphabet);
 	}
-	while (UpperAlphabet <= 'Z' ; UpperAlphabet++)
+	do  (UpperAlphabet <= 'Z' ; UpperAlphabet++)
 	{
 		putchar(UpperAlphabet);
 	}
