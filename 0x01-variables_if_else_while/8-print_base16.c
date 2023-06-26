@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - Hexadecimal
+ * main - program that prints all the numbers of base 16 in 
+ * lowercase, followed by a new line
  *
  * return: Always 0 (success)
  */
