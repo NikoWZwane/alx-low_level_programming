@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * description - program that prints all the numbers of base 16
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
