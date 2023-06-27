@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - check the code
- * @n: checkes value for n
+ * @n: checkes value for number
  * Return: Always 0.
  */
 int print_last_digit(int n)
@@ -10,14 +10,10 @@ int print_last_digit(int n)
 	int l;
 
 	l = n % 10;
-	if  (l < 0)
+	if (l < 0)
 	{
-		_putchar(-l + 48);
-		return (-l);
+	l = l * -1;
 	}
-	else
-	{
-		_putchar(1 + 48);
-		return (l);
-	}
+	_putchar(l + '0');
+	return (l);
 }
