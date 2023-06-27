@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main -  that prints the sign of a number
- *
- * Return: Always 0.
+ * print_sign - that prints the sign of a number
+ * @n: for zero
+ * Return: 1 for positive n -1 for negative n
  */
 int print_sign(int n)
 {
@@ -12,7 +12,7 @@ int print_sign(int n)
 		_putchar(43);
 		return (1);
 	}
-	if else(n < 0)
+	else if (n < 0)
 	{
 		_putchar(45);
 		return (-1);
