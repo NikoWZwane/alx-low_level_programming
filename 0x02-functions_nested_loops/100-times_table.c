@@ -31,7 +31,7 @@ void print_times_table(int n)
 		}
 		else if (prd <= 99 && prd >= 10)
 		{
-			_putcahr((prd / 10) + '0');
+			_putchar((prd / 10) + '0');
 		}
 			_putchar((prd % 10) + '0');
 		}
