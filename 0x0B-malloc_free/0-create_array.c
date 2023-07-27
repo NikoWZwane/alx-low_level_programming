@@ -3,10 +3,10 @@
 #include "main"
 /**
  * create_array - creates an array
- * @size
- * @c:
+ * @size: initializes it with a specific char
+ * @c: size of charecter
  *
- * Return: 
+ * Return: Nothing.
  */
 char *create_array(unsigned int size, char c)
 {
