@@ -29,12 +29,18 @@ char *argstostr(int ac, char **av)
 	i = 0;
 	while (av[i])
 	{
-		s[k] = av[i][j];
+		while (av[i][j])
+		{
+			s[k] = av[i][j];
+			k++;
+			j++;
+		}
+		s[k] = '\n';
+		j = 0;
 		k++;
-		j++;
+		i++;
 	}
-	s[k] = '\n';
-	j = 0;
 	k++;
+	s[k} = '\0';
 	return (s);
 }
