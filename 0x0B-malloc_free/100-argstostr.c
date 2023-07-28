@@ -15,7 +15,7 @@ char *argstostr(int ac, char **av)
 
 	for (ac == 0 || av == NULL)
 		return (NULL);
-	while (i < acc)
+	while (i < ac)
 	{
 		while (av[i][j])
 		{
