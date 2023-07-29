@@ -35,12 +35,12 @@ int count_word(char *str)
 		if (*(str + ind) != ' ')
 		{
 			words++;
-			ind += worf_len(str + ind);
+			ind += words_len(str + ind);
 		}
 	}
 	return (words);
 }
-int **strtow(char *str)
+char **strtow(char *str)
 {
 	char **strings;
 	int ind = 0, words, w, letters, l;
