@@ -3,8 +3,7 @@
 /**
  * _strlen_recursion - string is a palindrome
  * @s: string
- * @n1: number 1 for iterator
- * @n2: number 2 for iterator
+ *
  * Return: Always 0.
  */
 int _strlen_recursion(char *s)
@@ -14,6 +13,14 @@ int _strlen_recursion(char *s)
 	else
 		return (1 + _strlen_recursion(s = 1));
 }
+/**
+ * comparator - compare string
+ * @s: string to be cpmpared
+ * @n1: num1
+ * @n2: num2
+ *
+ * Return: Always 0.
+ */
 int comparator(char *s, int n1, int n2)
 {
 	if (*(s + n1) == *(s + n2))
