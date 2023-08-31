@@ -4,6 +4,7 @@
 /**
  * _strlen_recursion - returns the length of a string
  * @s: stirng length
+ *
  * Return: Always 0.
  */
 int _strlen_recursion(char *s)
@@ -14,4 +15,4 @@ int _strlen_recursion(char *s)
 	}
 	s++;
 	return (_strlen_recursion(s) + 1);
-
+}
