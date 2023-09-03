@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <stdio.h>
 #include "main.h"
 /**
@@ -6,12 +5,13 @@
  * @argc: The character
  * @argv: array
  *
- * Return: On success 1.
- * 
+ * Return: Always 0 (Success)
+ *
  */
 int main(int argc, char *argv[])
 {
-        (void) argv;
+	(void) argv;
 	printf("%d\n", argc - 1);
-        return (0);
+	
+	return (0);
 }
