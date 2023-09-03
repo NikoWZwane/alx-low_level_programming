@@ -7,7 +7,7 @@
  * @argv:
  *
  * Return: On success 1.
- * 
+ *
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
