@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * check-sum - check string for a digit
+ * check_num - check string for a digit
  * @str: string
  *
  * Return: Always 0 (Success)
@@ -19,7 +19,7 @@ int check_num(char *str)
 		{
 			return (0);
 		}
-		count++
+		count++;
 	}
 	return (1);
 }
