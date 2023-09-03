@@ -1,14 +1,15 @@
 #include <stdlib.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - print the 
+ * main - print the digits
  * @argc: uumber argument
- * @argc: array
+ * @argv: array
  *
  * Return: On success 1.argumet
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int num, j, result;
 	int coins[] = {25, 10, 5, 2, 1};
@@ -29,4 +30,10 @@ int main (int argc, char *argv[])
 	{
 		while (num >= coins[j])
 		{
-
+			result++;
+			num = coins[j];
+		}
+	}
+	printf("%d\n" , result);
+	return (0);
+}
