@@ -7,7 +7,7 @@
  * @argv: array of argument
  *
  * Return: On success 1.
- * 
+ *
  */
 int main(int argc, char *argv[])
 {
@@ -17,5 +17,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[j]);
 	}
-	return 0
+	return (0);
 }
