@@ -3,7 +3,7 @@
 
 /**
  * _strdup - copy of the string given as a parameter
- * @str: 
+ * @str: strings
  *
  * Return: 0
  */
@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	s = malloc((sizeof(char) * i) + 1);
 	if (s == NULL)
 		return (NULL);
-	while (a < i )
+	while (a < i)
 	{
 		s[a] = str[a];
 		a++;
