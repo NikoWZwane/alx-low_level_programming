@@ -3,8 +3,8 @@
 
 /**
  * _calloc - allocates memory for an array, using malloc
- * @nmemb: 
- * @size: size 
+ * @nmemb: number of memory
+ * @size: size
  *
  * Return: Always 0
  */
