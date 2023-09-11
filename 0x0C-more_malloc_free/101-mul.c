@@ -44,6 +44,13 @@ void errors(void)
 	printf("Error\n");
 	exit(98);
 }
+/**
+ * main - multiplies two positive numbers
+ * @argc: argument count
+ * @argv: array
+ *
+ * Return: Nothing
+ */
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
