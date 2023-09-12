@@ -1,7 +1,7 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 /**
- * dog - function that initialize a variable of type struct
+ * struct dog - that prints a struct dog
  * @name: name of dog
  * @age: Age
  * @owner: owner
