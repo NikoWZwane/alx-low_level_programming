@@ -1,3 +1,5 @@
+#include "3-calc.h"
+
 /**
  * op_add - calculate number one and number two
  *
