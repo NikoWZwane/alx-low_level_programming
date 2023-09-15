@@ -12,6 +12,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list numb;
 	unsigned int indx;
 
+	var_start(nums, n);
+
 	for (indx = 0; indx < n; indx++)
 	{
 		printf("%d", va_arg(numb, int));
