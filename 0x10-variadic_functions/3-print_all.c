@@ -1,4 +1,7 @@
 #include "variadic_functions.h"
+#include <stdio.h>
+#include <stdarg.h>
+
 /**
  * print_char - print a char
  * @arg: a list of argument pointing add charcter to be printed
