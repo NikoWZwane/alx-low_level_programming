@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * is_palindrome - palindrome
+ * is_palindrome - checks if a string is a palindrome
  * @s: strings
  *
- * Retrun: Always 0.
+ * Return: 1 if it is, 0 it's not
  */
 int is_palindrome(char *s)
 {
@@ -14,10 +14,10 @@ int is_palindrome(char *s)
 }
 
 /**
- * _is_palindrome - string is a palindrome
- * @s: string
+ * _strlen_recursion - string is a palindrome
+ * @s: string lenght
  *
- * Return: Always 0.
+ * Return: string lenght
  */
 int _strlen_recursion(char *s)
 {
@@ -32,7 +32,7 @@ int _strlen_recursion(char *s)
  * @n1: num1
  * @n2: num2
  *
- * Return: Always 0.
+ * Return: 1 if palindrome, 0 if not
  */
 int comparator(char *s, int n1, int n2)
 {
