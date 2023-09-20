@@ -3,7 +3,7 @@
 
 int check_prime(int n, int i);
 /**
- * _sqrt_recursion - Calculates the natural square root of a number.
+ * is_prime_number - Recursively checks if num is prime.
  * @n: The number for which the square root is calculated.
  *
  * Return: The natural square root of n, or -1
@@ -14,7 +14,7 @@ int is_prime_number(int n)
 	return (check_prime(n, 1));
 }
 /**
- * check_prime - Recursively checks if num is prime.
+ * check_prime - Calculates the natural square root of a number.
  * @n: The number to check for primality.
  * @i: The current iteration (divisor) being checked.
  *
