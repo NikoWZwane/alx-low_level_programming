@@ -2,7 +2,7 @@
 #include <string.h>
 #include "lists.h"
 /**
- * list_t *add_node_end - 
+ * list_t *add_node_end - new node at the end of a list_t list.
  * @head: - double pointer to the lists fie
  * @str: pointer to lists file
  *
