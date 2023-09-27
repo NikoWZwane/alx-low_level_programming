@@ -1,10 +1,9 @@
 #include "lists.h"
 /**
  * pop_listint -  function that frees a list
- * @head:double point  to be freed in lists file
+ * @head: double point  to be freed in lists file
  *
- *
- * Return : Always );
+ * Return: num_node;
  */
 int pop_listint(listint_t **head)
 {
