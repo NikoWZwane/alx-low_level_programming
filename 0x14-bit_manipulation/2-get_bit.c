@@ -4,7 +4,7 @@
  * @index: is the index, starting from 0
  * @n: number of bit
  *
- * Retrun: value of bit
+ * Return: value of bit
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
