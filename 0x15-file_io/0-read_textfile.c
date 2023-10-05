@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "main.h"
 /**
  * read_textfile - reads a text file and prints it to the POSIX
  * @letters: letters it should read and print
@@ -13,7 +14,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t wd;
 	ssize_t t;
 
-	fwd = open(filename. O_RDONLY);
+	fwd = open(filename, O_RDONLY);
 	if (fwd == -1)
 		return (0);
 	bf = malloc(sizeof(char) *letters);
@@ -21,5 +22,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	wd = write(STDOUT_FILENO, bf, t);
 		free(bf);
 		close(fwd);
-		return (wd)
+		return (wd);
 }
