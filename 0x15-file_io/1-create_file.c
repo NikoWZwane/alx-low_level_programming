@@ -17,10 +17,10 @@ int create_file(const char *filename, char *text_content)
 		for (leng = 0; text_content[leng];)
 			leng++;
 	}
-	fwd = open(filename, O_CREAT | O_RDWR | O_TRUNC,0600);
+	fwd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	w = write(fwd, text_content, leng);
 	if (fwd == -1 || w == -1)
 		return (-1);
 	close(fwd);
-	return(1);
+	return (1);
 }
